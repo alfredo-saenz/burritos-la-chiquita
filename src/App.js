@@ -3,12 +3,13 @@ import Home from './Components/Home'
 import Menu from './Components/Menu'
 import Location from './Components/Location';
 import Gallery from './Components/Gallery'
+import Navbar from './Components/Navbar';
 import { Routes, Route, Link } from 'react-router-dom';
 
 function App() {
   return (
     <main>
-
+<Navbar/>
 <Routes>
 <Route path="/" element={<Home/>}></Route>
 <Route path="/menu" element={<Menu/>}></Route>
