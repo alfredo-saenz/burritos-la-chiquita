@@ -1,14 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './Components/Home'
+import { Button } from '@material-tailwind/react';
 
 function App() {
   return (
-    <div className="App">
-      <h1 class="text-19xl font-bold underline">
-    Hello world!
-  </h1>
-    </div>
-  );
+		<div className='App'>
+      <Home/>
+		</div>
+	);
 }
 
 export default App;
