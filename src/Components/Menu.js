@@ -13,7 +13,7 @@ function Menu(props) {
 	return (
 		<div>
 
-			{show ? <h1>Beef Burrito </h1> : null}
+			{show ? <h2>Beef Burrito </h2> : null}
 			<toggle>
 				<Button onClick={handleClick}>Burritos</Button>{' '}
 			</toggle>
