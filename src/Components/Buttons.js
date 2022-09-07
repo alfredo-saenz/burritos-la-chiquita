@@ -1,9 +1,11 @@
-const Button = ({ category, onClick }) => {
+import { Button } from '@material-tailwind/react';
+
+const Buttons = ({ category, onClick }) => {
 	return (
 		<div className='btn'>
-			<button onClick={onClick}>{category}</button>
+			<Button onClick={onClick}>{category}</Button>
 		</div>
 	);
 };
 
-export default Button;
+export default Buttons;
