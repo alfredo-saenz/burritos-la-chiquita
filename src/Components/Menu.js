@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from '@material-tailwind/react';
 import { useState } from 'react'
 import data from './data';
 import Buttons from './Buttons';
@@ -30,7 +29,7 @@ function Menu(props) {
 		// 			// 👇️ or simply set it to true
 		// 			// setIsShown(true);
 		// 		};
-				
+
 
 	return (
 		// 	<div>
@@ -51,7 +50,7 @@ function Menu(props) {
 			<div className='underline'></div>
 			<div className='btn-container'>
 				{categories.map((c) => (
-					<Buttons category={c} onClick={() => handleClick(c)} />
+					<Buttons className='btns' category={c} onClick={() => handleClick(c)} />
 				))}
 			</div>
 			<div className='container'>
@@ -61,7 +60,7 @@ function Menu(props) {
 			</div>
 		</div>
 	);
-	
+
 }
 
 export default Menu;
