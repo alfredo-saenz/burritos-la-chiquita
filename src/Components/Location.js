@@ -1,9 +1,9 @@
-import React from 'react';
+import {React,useState} from 'react';
 import {
 	GoogleMap,
-	useJsApiLoader,
-    LoadScript,
-    useLoadScript
+    useLoadScript,
+    Marker,
+    InfoWindow
 } from '@react-google-maps/api';
 
 function Location(props) {
@@ -11,14 +11,25 @@ function Location(props) {
 			googleMapsApiKey: process.env.REACT_APP_API_KEY,
 		});
 
-  
+     const [selectedElement, setSelectedElement] = useState(null);
 
     if(!isLoaded) return <div>Loading...</div>;
     return <Map />
      function Map(){
-return  (
-<GoogleMap zoom={10} center= {{lat:44, lng: -80}} mapContainerClassName="map-container"></GoogleMap>
-     );
+return (
+	<div>
+		<GoogleMap
+			clickableIcon={true}
+			zoom={15}
+			center={{ lat: 39.11583, lng: -94.64421 }}
+			mapContainerClassName='map-container'>
+		<Marker position={{ lat: 39.11583, lng: -94.64421 }} visible={true}>
+            
+        </Marker>
+		</GoogleMap>
+        
+	</div>
+);
      
 }}
 export default Location;
