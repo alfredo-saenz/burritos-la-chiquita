@@ -20,4 +20,9 @@ code {
   height: 100vh;
   width: 100%;
 }
-
+ .link{
+  color: blue;
+ }
+ .restaurant-name{
+  font-weight: bold;
+ }
