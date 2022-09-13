@@ -22,29 +22,9 @@ function Menu(props) {
 					setShow(data);
 				}
 			};
-        // const handleClick = (event) => {
-		// // 👇️ toggle shown state
-		// setShow((current) => !current);
-
-		// 			// 👇️ or simply set it to true
-		// 			// setIsShown(true);
-		// 		};
-
-
+    
 	return (
-		// 	<div>
-
-		// 		{show ? <h2>Beef Burrito ! </h2> : null}
-		// 		<toggle>
-		// 			<Button onClick={handleClick}>Burritos</Button>{' '}
-		// 		</toggle>
-
-		//         <Button>Burritos</Button>
-		//         <Button>Tortas</Button>
-		//         <Button>La Chiquita Favorites</Button>
-		//         <Button>Tacos/Quesadillas</Button>
-		//         <Button>Platillos/Menudo</Button>
-		// 	</div>
+	
 		<div className='App'>
 			<h1>Our Menu </h1>
 			<div className='underline'></div>
