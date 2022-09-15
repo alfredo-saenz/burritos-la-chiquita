@@ -12,7 +12,7 @@ function Location(props) {
 		});
 
 
-    if(!isLoaded) return <div>Loading...</div>;
+    if(!isLoaded) return <div>Loading....</div>;
     return <Map />
      function Map(){
 return (
