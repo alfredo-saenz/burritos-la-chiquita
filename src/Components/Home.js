@@ -8,10 +8,10 @@ function Home(props) {
 				<h1 class='text-xl font-bold'>Burritos La Chiquita</h1>
 				<div className='home-button'>
 					<Link to='/menu'>
-						<Button>Menu</Button>
+						<Button className='button-56'>Menu</Button>
 					</Link>
 					<Link to='/location'>
-						<Button>Location</Button>
+						<Button className='button-56'>Location</Button>
 					</Link>
 				</div>
 			</div>

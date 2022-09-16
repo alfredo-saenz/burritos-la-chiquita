@@ -28,31 +28,28 @@ code {
  }
 .btn-container{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   color: black;
+  align-self: auto;
+  gap: 5px;
 }
 
-.button-56{
-  color:#20ff02;
-  width: 50px;
-  height: 30px;
-  border: 5px solid black;
-  font-size: 15px;
-}
 
-/* .button-56 {
+
+.button-56 {
   align-items: center;
-  background-color: #37cc0a;
-  border: 2px solid #111;
+  background-color: rgb(231, 202, 130);
+  border: 2px solid rgb(161, 161, 161);
   border-radius: 8px;
   box-sizing: border-box;
-  color: #111;
+  color: rgb(27, 27, 27);
   cursor: pointer;
   display: flex;
   font-family: Inter, sans-serif;
   font-size: 16px;
-  height: 48px;
+  height: 30px;
   justify-content: center;
   line-height: 24px;
   max-width: 100%;
@@ -63,12 +60,13 @@ code {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  flex-grow: 3;
+  flex-wrap: wrap;
 } */
 
-.button-56:after {
+ .button-56:after {
   background-color: rgb(12, 12, 12);
   border-radius: 8px;
-  content: "";
   display: block;
   height: 48px;
   left: 0;
@@ -82,15 +80,16 @@ code {
 
 .button-56:hover:after {
   transform: translate(0, 0);
+  
 }
 
 .button-56:active {
-  background-color: #ec1800;
+  background-color: #818181;
   outline: 0;
 }
 
 .button-56:hover {
-  outline: 0;
+  outline: 2;
 }
 
 @media (min-width: 768px) {
@@ -99,21 +98,14 @@ code {
   }
 }
 
-.app{
-  color: black;
-}
-.btn-container{
-  color: black;
-}
-
 .home{
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-flow: column nowrap;
+  flex-flow: column;
   
 }
 .home-button{
-  display: flex;
-  justify-content: space-around;
+ display: flex;
+ gap: 5px;
 }

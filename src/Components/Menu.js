@@ -26,11 +26,11 @@ function Menu(props) {
     
 	return (
 		<div className='App'>
-			<h1>Our Menu </h1>
+			<h1 className='menu-h1'>Our Menu </h1>
 			<div className='underline'></div>
 			<div className='btn-container'>
 				{categories.map((c) => (
-					<Button
+					<Buttons
 						className='button-56'
 						category={c}
 						onClick={() => handleClick(c)}
