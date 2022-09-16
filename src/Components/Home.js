@@ -10,7 +10,9 @@ function Home(props) {
 					<Link to='/menu'>
 						<Button>Menu</Button>
 					</Link>
-					<Button>Location</Button>
+					<Link to='/location'>
+						<Button>Location</Button>
+					</Link>
 				</div>
 			</div>
 		);
