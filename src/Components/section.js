@@ -1,3 +1,4 @@
+import sectionCSS from '../Components/section.css'
 const Section = ({ menu }) => {
 	return (
 		<section>
