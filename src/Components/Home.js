@@ -4,12 +4,16 @@ import { Link } from 'react-router-dom';
 
 function Home(props) {
     return (
-			<div>
+			<div className='home'>
 				<h1 class='text-xl font-bold'>Burritos La Chiquita</h1>
-				<Link to='/menu'>
-				<Button>Menu</Button>
-				</Link>
-				<Button>Location</Button>
+				<div className='home-button'>
+					<Link to='/menu'>
+						<Button className='button-56'>Menu</Button>
+					</Link>
+					<Link to='/location'>
+						<Button className='button-56'>Location</Button>
+					</Link>
+				</div>
 			</div>
 		);
 }
