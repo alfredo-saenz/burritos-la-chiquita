@@ -3,6 +3,7 @@ import { useState } from 'react'
 import data from './data';
 import Buttons from './Buttons';
 import Section from './section';
+import { Button } from '@material-tailwind/react';
 function Menu(props) {
       const [show, setShow] = useState(data);
 	   const categories = data.reduce(
@@ -24,13 +25,16 @@ function Menu(props) {
 			};
     
 	return (
-	
 		<div className='App'>
-			<h1>Our Menu </h1>
+			<h1 className='menu-h1'>Our Menu </h1>
 			<div className='underline'></div>
 			<div className='btn-container'>
 				{categories.map((c) => (
-					<Buttons className='btns' category={c} onClick={() => handleClick(c)} />
+					<Buttons
+						className='button-56'
+						category={c}
+						onClick={() => handleClick(c)}
+					/>
 				))}
 			</div>
 			<div className='container'>
