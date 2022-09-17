@@ -6,13 +6,13 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
 		<div>
-			<nav className='bg-gray-800'>
-				<div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+			<nav className='bg-gray-700'>
+				<div className='max-w-6xl mx-auto px-4 sm:px-6 lg:px-8'>
 					<div className='flex items-center justify-between h-16'>
 						<div className='flex items-center'>
 							<div className='flex-shrink-0'>
 								<Link to='/'>
-									<img alt='logo' className='h-60 w-60' src={logo} />
+									<img alt='logo' className='h-70 w-80' src={logo} />
 								</Link>
 							</div>
 							<div className='hidden md:block'>
@@ -115,14 +115,7 @@ function Navbar() {
 				</Transition>
 			</nav>
 
-			<header className='bg-white shadow'></header>
-			<main>
-				<div className='max-w-7xl mx-auto py-6 sm:px-6 lg:px-8'>
-					{/* <!-- Replace with your content --> */}
-					<div className='px-4 py-6 sm:px-0'></div>
-					{/* <!-- /End replace --> */}
-				</div>
-			</main>
+			
 		</div>
 	);
 }
