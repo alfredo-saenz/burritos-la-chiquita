@@ -4,7 +4,7 @@ const menu = [
 		title: 'Asada',
 		category: 'Burritos',
 		price: 5.5,
-		
+		img:"https://en.wikipedia.org/wiki/Burrito#/media/File:Burrito.JPG",
 		desc: 'Grilled Steak',
 	},
 	{

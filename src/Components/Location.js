@@ -38,12 +38,12 @@ function Location(props) {
 					</Marker>
 				</GoogleMap>
 				<div className='location-box'>
-					<h3>Location:</h3>
-					<p>
+					{/* <h3>Location:</h3> */}
+					{/* <p>
 						<a href='https://www.google.com/maps/place/Burritos+La+Chiquita/@39.115896,-94.6467138,17z/data=!3m1!4b1!4m5!3m4!1s0x87c0f16291190f45:0xf7868bc695e8c0e2!8m2!3d39.115896!4d-94.6445251'>
 							1328 Minnesota Ave, Kansas City, KS 66102
 						</a>
-					</p>
+					</p> */}
 					<p>Store Hours:</p>
 					<ul>
 						<li>Monday - Friday</li>
