@@ -4,11 +4,13 @@ import Menu from './Components/Menu'
 import Location from './Components/Location';
 import Gallery from './Components/Gallery'
 import Navbar from './Components/Navbar';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
+  
   return (
     <main className='main'>
+     
 <Navbar/>
 <Routes>
 <Route path="/" element={<Home/>}></Route>
