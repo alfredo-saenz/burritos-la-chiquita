@@ -26,9 +26,11 @@ body {
   width: 45%;
   border: 1px solid red;
   background: white;
+
 display: flex;
 justify-content: center;
 align-items: center;
+
 }
 
 .home-logo {
@@ -182,6 +184,7 @@ justify-content: center;
   font-weight: 500;
   font-size: 15px;
   color: white;
+
 }
 
 .wrapper {
@@ -260,4 +263,6 @@ justify-content: center;
   height: 50px;
   top: 50%;
   z-index: 999;
+
+
 }
