@@ -16,22 +16,28 @@ body {
 
 .map {
   display: flex;
-  gap: 40px;
+  flex-direction: column-reverse;
+  border: 5px solid;
+  align-items: center;
+  justify-content: center;
 }
 
 .location-box {
-  margin-top: 70px;
-  margin-right: 40px;
-  height: 70vh;
-  width: 45%;
-  background: white;
-
+  height: 40vh;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  background-color: #cccccc;
+  opacity: .7;
+  font-size: 20px;
 display: flex;
 justify-content: center;
 align-items: center;
-
+padding: -1000px;
+margin: -1000;
 }
-
+.address{
+  width: 40vw;
+}
 .home-logo {
   height: 200px;
   width: auto;
@@ -42,10 +48,9 @@ align-items: center;
 }
 
 .map-container {
-  margin-top: 70px;
-  margin-left: 40px;
+ 
   height: 70vh;
-  width: 45%;
+  width: 95%;
 }
  .link{
   color: inherit;
@@ -62,10 +67,6 @@ align-items: center;
   align-self: auto;
   gap: 5px;
 }
-
-
-
-
 
 .button-56 {
   align-items: center;
@@ -264,4 +265,11 @@ justify-content: center;
   z-index: 999;
 
 
+}
+.container{
+  color: rgb(43, 43, 43);
+  font-weight:bolder;
+  font-size: larger;
+  background-color: white;
+  opacity: .8;
 }
